@@ -38,16 +38,16 @@ Let's divide our analysis into 4 parts:
 ###### #--------Part-2--------#
 3. Data Exploration - Getting to know more about the data
    
-4. Data Visualization 1 - **Author occurence frequency in Training data**  * Pie Chart
+4. Data Visualization 1 - **Author occurence frequency in Training data**  *Pie Chart*
 
 ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Authorfreq%20-%20training.PNG)
 
-*There are more lines from author Edgar Allen Poe (EAP) in the training data
+*There are more lines from author Edgar Allen Poe (EAP) in the training data*
 
 ###### #--------Part-3--------#
 5. Feature Engineering - train and test set
 
-    a) Sentiment analysis - score and label and Data Visualization 2 - Bar chart (Horizontal and Vertical)
+    a) Sentiment analysis and Data Visualization 2 **Score and Label**  *Bar chart (Horizontal and Vertical)*
     
     ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sentiment%20analysis%20-%20Training.PNG)
     
@@ -64,9 +64,9 @@ Let's divide our analysis into 4 parts:
 
    a) creating a model_train and model_test set - stratified split of train data
    
-   b) Building models : *Logistic Regression, Naive Bayes, KNN Classification, Decision Tree, Random Forest, XGBoost
+   b) Building models : ***Logistic Regression, Naive Bayes, KNN Classification, Decision Tree, Random Forest, XGBoost***
    
-   c) Applying K-fold cross validation technique
+   c) Applying K-fold cross validation technique for each model
 
 ###### #--------Part-5--------#
 7. Comparing models 
