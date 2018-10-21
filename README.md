@@ -3,7 +3,7 @@
    
 Kaggle Competition link: https://www.kaggle.com/c/spooky-author-identification
 
-This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on text data provided by Kaggle. I will be using **Python** in this section to complete the exercise. This project has been solved using **R** language too. *https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio-*
+This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on the text data. I will be using **Python** in this section to complete the exercise. This project has been solved using **R** language too. *https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio-*
 
 Data for analysis: https://www.kaggle.com/c/spooky-author-identification/data
 
@@ -13,21 +13,21 @@ What is Predictive analysis?
 
 Out of all the available definitions on the web, the definition that caught my attention was provided by SAS firm in their website. Which states: "Predictive analytics is the use of data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future."
 
-*What is the competition about?*
+***What is the project about?***
 
-This competition can be considered as a classic example for predictive modelling and analysis. Competition wants us to train a model based on the given train set, which contains text from various novels written by three writers Edgar Allen Poe (EAP), Mary Shelley (MWS), HP Lovecraft (HPL). Our final goal here is to predict author name for the test dataset which contains only text from the above mentioned authors in random.
+This competition can be considered as a classic example for predictive modelling and analysis. Competition wants us to train a model based on the given train set, which contains text from various novels written by three writers Edgar Allen Poe (EAP), Mary Shelley (MWS), HP Lovecraft (HPL). The final goal here is to predict author name for the test dataset which contains only text from the above mentioned authors in random.
 
 Programming Language: Python 
 
 Type of problem : Classification
 
-Algorithm used for training: Logistic Regression, Naive Bayes, KNN Classification, Decision Trees, Random Forest, XGBoost
+Algorithms used for training: Logistic Regression, Naive Bayes, KNN Classification, Decision Trees, Random Forest, XGBoost
 
 # 2. Analysis
 
-**Approach to the solution**
+**Approach to the solution** [Code](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Code.py)
 
-Let's divide our analysis into 4 parts:
+Let's divide our analysis into 5 parts:
 
 ###### #--------Part-1--------#
 
@@ -38,6 +38,14 @@ Let's divide our analysis into 4 parts:
 ###### #--------Part-2--------#
 3. Data Exploration - Getting to know more about the data
    
+   *Sample Train data*
+   
+   ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Traindata.PNG)
+   
+   *Sample Test data*
+   
+   ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Testdata.PNG)
+  
 4. Data Visualization 1 - **Author occurence frequency in Training data**  *Pie Chart*
 
 ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Authorfreq%20-%20training.PNG)
@@ -79,13 +87,16 @@ Let's divide our analysis into 4 parts:
    
    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Confusion%20matrix_bestmodel.PNG)
    
-8. Predicting values on the test set applying the best model
+   The ***Variable importance plot*** for the Logistic Regression model
+   
+   ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Variable%20Importance%20Plot.PNG)
+   
+8. Predicting values on the test set applying the best model *Logistic Regression*
 
    The sample screenshot of the final result is saved into a .csv file
    
    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sample%20result.PNG)
 
-   
    
 
 
