@@ -56,9 +56,11 @@ Let's divide our analysis into 4 parts:
    
    b) Building models : *Logistic Regression, Naive Bayes, KNN Classification, Decision Tree, Random Forest, XGBoost
    
-7. Comparing models based on Confusion Matrix and Accuracy - K fold cross validation applied
+   c) Applying K-fold cross validation technique
 
 ###### #--------Part-5--------#
+7. Comparing models 
+
 8. Predicting values on the test set applying the best model
 
    
