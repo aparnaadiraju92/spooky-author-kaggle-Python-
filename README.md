@@ -18,8 +18,10 @@ Out of all the available definitions on the web, the definition that caught my a
 This competition can be considered as a classic example for predictive modelling and analysis. Competition wants us to train a model based on the given train set, which contains text from various novels written by three writers Edgar Allen Poe (EPL), Mary Shelley (MWS), HP Lovecraft (HPL). Our final goal here is to predict author name for the test dataset which contains only text from the above mentioned authors in random.
 
 Programming Language: Python 
-                
-Algorithm used for training: Logistic Regression, Naive Bayes, KNN Classification, XGBoost
+
+Type of problem : Classification
+
+Algorithm used for training: Logistic Regression, Naive Bayes, KNN Classification, Decision Trees, Random Forest, XGBoost
 
 # 2. Analysis
 
@@ -41,9 +43,9 @@ Let's divide our analysis into 4 parts:
 ###### #--------Part-3--------#
 5. Feature Engineering - train and test set
 
-    a) adding text length  
-
-    b) Sentiment analysis - score and label and Data Visualization 2    
+    a) Sentiment analysis - score and label and Data Visualization 2 - Bar chart (Horizontal and Vertical)
+    
+    b) adding text length       
     
     c) adding comma features
     
