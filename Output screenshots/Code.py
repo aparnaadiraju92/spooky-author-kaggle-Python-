@@ -8,7 +8,6 @@ Problem Type : Classification
 Tool : Python
 
 Created by Aparna Adiraju
-Created on Sat Oct 20 19:06:00 2018
 """
 
 #---------------- BEGINNING OF PART 1 -------------------#
