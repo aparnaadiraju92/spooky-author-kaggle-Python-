@@ -15,7 +15,7 @@ Out of all the available definitions on the web, the definition that caught my a
 
 *What is the competition about?*
 
-This competition can be considered as a classic example for predictive modelling and analysis. Competition wants us to train a model based on the given train set, which contains text from various novels written by three writers Edgar Allen Poe (EPL), Mary Shelley (MWS), HP Lovecraft (HPL). Our final goal here is to predict author name for the test dataset which contains only text from the above mentioned authors in random.
+This competition can be considered as a classic example for predictive modelling and analysis. Competition wants us to train a model based on the given train set, which contains text from various novels written by three writers Edgar Allen Poe (EAP), Mary Shelley (MWS), HP Lovecraft (HPL). Our final goal here is to predict author name for the test dataset which contains only text from the above mentioned authors in random.
 
 Programming Language: Python 
 
@@ -38,12 +38,20 @@ Let's divide our analysis into 4 parts:
 ###### #--------Part-2--------#
 3. Data Exploration - Getting to know more about the data
    
-4. Data Visualization 1 - PIE CHART 
+4. Data Visualization 1 - **Author occurence frequency in Training data**  * Pie Chart
+
+![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Authorfreq%20-%20training.PNG)
+
+*There are more lines from author Edgar Allen Poe (EAP) in the training data
 
 ###### #--------Part-3--------#
 5. Feature Engineering - train and test set
 
     a) Sentiment analysis - score and label and Data Visualization 2 - Bar chart (Horizontal and Vertical)
+    
+    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sentiment%20analysis%20-%20Training.PNG)
+    
+    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sentiment%20analysis%20-%20Test.PNG)
     
     b) adding text length       
     
@@ -63,7 +71,13 @@ Let's divide our analysis into 4 parts:
 ###### #--------Part-5--------#
 7. Comparing models 
 
+    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Models%20comparison.PNG)
+   
+   *On comparing the various Classification model applied based on the average accuracy from K-fold cross validation, **Logistic Regression** seems to be the best model*
+   
 8. Predicting values on the test set applying the best model
+
+   ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sample%20result.PNG)
 
    
    
