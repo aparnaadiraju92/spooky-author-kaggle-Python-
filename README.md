@@ -75,8 +75,14 @@ Let's divide our analysis into 4 parts:
    
    *On comparing the various Classification model applied based on the average accuracy from K-fold cross validation, **Logistic Regression** seems to be the best model*
    
+   Here is the ***Confusion Matrix*** of the Logistic Regression model obtained. The levels 0 = EAP, 1 = HPL, 2 = MWS
+   
+   ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Confusion%20matrix_bestmodel.PNG)
+   
 8. Predicting values on the test set applying the best model
 
+   The sample screenshot of the final result is saved into a .csv file
+   
    ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-python-/blob/master/Output%20screenshots/Sample%20result.PNG)
 
    
