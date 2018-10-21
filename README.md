@@ -3,7 +3,7 @@
    
 Kaggle Competition link: https://www.kaggle.com/c/spooky-author-identification
 
-This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on text data provided by Kaggle. I will be using **Python** in this section to complete the exercise. This project has been solved using **R** language too. ![alt text](https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio-)
+This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on text data provided by Kaggle. I will be using **Python** in this section to complete the exercise. This project has been solved using **R** language too. *https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio-*
 
 Data for analysis: https://www.kaggle.com/c/spooky-author-identification/data
 
