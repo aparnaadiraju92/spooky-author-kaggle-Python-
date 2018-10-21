@@ -19,7 +19,7 @@ This competition can be considered as a classic example for predictive modelling
 
 Programming Language: Python 
                 
-Algorithm used for training: Logistic Regression, Naive Bayes, XGBoost
+Algorithm used for training: Logistic Regression, Naive Bayes, KNN Classification, XGBoost
 
 # 2. Analysis
 
@@ -54,8 +54,14 @@ Let's divide our analysis into 4 parts:
 
    a) creating a model_train and model_test set - stratified split of train data
    
-   b) Building model - confusion matrix, accuracy
+   b) Building models : *Logistic Regression, Naive Bayes, KNN Classification, Decision Tree, Random Forest, XGBoost
    
-   c) Predicting model on test data
+7. Comparing models based on Confusion Matrix and Accuracy - K fold cross validation applied
+
+###### #--------Part-5--------#
+8. Predicting values on the test set applying the best model
+
+   
+   
 
 
