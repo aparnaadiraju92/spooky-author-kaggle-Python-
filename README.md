@@ -3,7 +3,7 @@
    
 Kaggle Competition link: https://www.kaggle.com/c/spooky-author-identification
 
-This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on the text data. I will be using **Python** in this section to complete the exercise. This project has been solved using **R** language too. *https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio-*
+This repository helps Data Analytics/Science Enthusiasts to perform feature engineering and predictive analysis on the text data. I will be using **Python** in this section to complete the exercise. This project has been solved using [**R** language]https://github.com/aparnaadiraju92/spooky-author-kaggle-R-Studio- too. 
 
 Data for analysis: https://www.kaggle.com/c/spooky-author-identification/data
 
@@ -11,7 +11,7 @@ Data for analysis: https://www.kaggle.com/c/spooky-author-identification/data
 
 What is Predictive analysis?
 
-Out of all the available definitions on the web, the definition that caught my attention was provided by SAS firm in their website. Which states: "Predictive analytics is the use of data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future."
+"Predictive analytics is the use of data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future."
 
 ***What is the project about?***
 
